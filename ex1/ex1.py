@@ -6,12 +6,8 @@ import sys
 def get_arg():
     my_list = []
     for line in sys.stdin:
-        # Split the line into individual values
         values = line.strip().split()
         my_list.append(values)
-    # Process the values as needed
-    # print("Processing:", values)
-    # print("my_list:", my_list)
     return my_list
 
 
